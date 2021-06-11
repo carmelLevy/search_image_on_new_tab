@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+	"name": " Image Search On a New Tab",
+	"version": "1.0",
+
+	"description": "Right click an image then choose if you want to search the image on a new tab in the background, or go immediately to the new search tab",
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": [
+		"menus",
+		"storage"
+	],
+
+	"icons": {
+		"48": "icons/mario48.png",
+		"128": "icons/mario128.png"
+	},
+
+	"applications": {
+		"gecko": {
+			"id": "extensionname@example.org"
+		}
+	}
+}
